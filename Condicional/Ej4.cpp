@@ -19,11 +19,11 @@ int main(){
     }
     else if (nota < 75 && nota >= 60)
     {
-        cout << "Haz aprobado con " << nota << ", mejoremos esa nota un poco mas ;)" << endl;
+        cout << "Has aprobado con " << nota << ", mejoremos esa nota un poco mas ;)" << endl;
     }
     else 
     {
-        cout << "Haz reprobado :c" << endl << "Esforzemonos mas la proxima!" << endl;
+        cout << "Has reprobado :c" << endl << "Esforzemonos mas la proxima!" << endl;
     }
     return 0;
 }
