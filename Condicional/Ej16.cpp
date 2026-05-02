@@ -4,7 +4,7 @@ using namespace std;
 
 int main (){
 
-    string user, pass, user1, pass1;
+    string user, pass, user1, pass1; //No queme los datos de ingreso, por eso se incluye la creación del usuario
     
 
     cout <<endl <<"CREACION DE USUARIO" << endl << endl;
@@ -22,6 +22,10 @@ int main (){
 
     cout << "Ingrese su password: " << endl;
     cin >> pass1;
+
+    /*Para sustituir el while decidí no declarar al inicio "intentos = 3",
+    y en su lugar declararla con un valor diferente en cada bloque, para representar el "No más intentos"
+    */
 
     if (user == user1 && pass == pass1)
     {
@@ -79,5 +83,3 @@ int main (){
 
     return 0;
 }
-//jiji no pude sin el while
-//jiji ya pude 

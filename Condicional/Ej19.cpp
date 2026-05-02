@@ -32,4 +32,5 @@ int main (){
     {
         cout << "Datos invalidos" << endl;
     }
+    return 0;
 }
